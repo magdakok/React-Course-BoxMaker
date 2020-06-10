@@ -6,5 +6,8 @@ Simple app that lets user create a box with specified width, length and backgrou
 
 ---
 
+### Used libraries
+- uuid
+
 ### Setup
 Clone this repo to your desktop and run `npm install` to install all the dependencies.
