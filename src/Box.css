@@ -1,0 +1,22 @@
+.Box {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.Box button {
+    background-color: aliceblue;
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 2px;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+    font-family: inherit;
+    transition: all 0.2s;
+    cursor: pointer;
+    outline: none;
+}
+
+.Box button:hover {
+    background-color: rgba(240, 248, 255, 0.8);
+}
