@@ -2,21 +2,21 @@ import React, {Component} from 'react';
 import Box from "./Box";
 import NewBoxForm from './NewBoxForm';
 import "./BoxList.css";
+import uuid from "uuid/v4";
 
 class BoxList extends Component {
     constructor(props){
         super(props);
         this.state = {
             boxes: [
-                {color:"yellow", width: "200", height: "150"},
-                {color:"pink", width: "160", height: "200"}
+                {color:"yellow", width: "200", height: "150", id:uuid()},
             ]
         }
         this.addBox = this.addBox.bind(this);
     }
 
     addBox(box){
-        let newBox = {...box}
+        let newBox = {...box, id: uuid()}
         this.setState(st =>({
             boxes: [...st.boxes, newBox]
         }))
