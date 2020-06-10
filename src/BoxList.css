@@ -1,3 +1,9 @@
+.BoxList {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+}
+
 .BoxList-container {
     display: flex;
     flex-wrap: wrap;

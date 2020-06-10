@@ -1,0 +1,39 @@
+.NewBoxForm {
+   width: 150px;
+   padding: 20px;
+   background-color: rgb(201, 217, 217);
+}
+
+.NewBoxForm-container {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.NewBoxForm-group {
+    margin-bottom: 20px;
+}
+
+.NewBoxForm h1 {
+    font-size: 22px;
+    font-weight: 200;
+    margin-bottom: 20px;
+}
+
+.NewBoxForm label {
+    display: block;
+    margin-bottom: 7px;
+}
+
+.NewBoxForm input {
+    width: 65px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid rgb(149, 149, 149);
+    border-radius: 2px;
+}
+
+.NewBoxForm button {
+    margin-top: 20px;
+}

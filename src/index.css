@@ -10,16 +10,28 @@
     transition: all 0.3s;
 }
 
-html {
-    font-size: 62.5%;
-}
-
 body {
     box-sizing: border-box;
     font-family: 'Lato', sans-serif;
-
+    font-weight: 200;
 }
 
 ul {
     list-style: none;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.534);
+    border: 1px solid rgb(169, 169, 169);
+    border-radius: 2px;
+    padding: 10px 15px;
+    letter-spacing: 2px;
+    font-family: inherit;
+    transition: all 0.2s;
+    cursor: pointer;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgb(255, 255, 255);
 }
