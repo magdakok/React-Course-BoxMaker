@@ -11,6 +11,14 @@ class BoxList extends Component {
                 {color:"pink", width: "160", height: "200"}
             ]
         }
+        this.addBox = this.addBox.bind(this);
+    }
+
+    addBox(box){
+        let newBox = {...box}
+        this.setState(st =>({
+            boxes: [...st.boxes, newBox]
+        }))
     }
 
     renderBoxes(){
@@ -25,7 +33,7 @@ class BoxList extends Component {
         return (
             <div className="BoxList">
                 {this.renderBoxes()}
-                <NewBoxForm />
+                <NewBoxForm addBox={this.addBox}/>
             </div>
         );
     } 
