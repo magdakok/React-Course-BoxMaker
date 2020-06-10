@@ -23,8 +23,13 @@ class BoxList extends Component {
         }))
     }
 
-    removeBox(box){
-
+    removeBox(e){
+        let newBoxes = this.state.boxes.filter(box =>{
+            return (box.id !== e.target.id)
+        });
+        this.setState(st =>({
+            boxes: [...newBoxes]
+        }))
     }
 
     renderBoxes(){
