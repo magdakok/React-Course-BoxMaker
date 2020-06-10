@@ -7,7 +7,8 @@ class BoxList extends Component {
         super(props);
         this.state = {
             boxes: [
-                {color:"yellow", width: "200", height: "150"}
+                {color:"yellow", width: "200", height: "150"},
+                {color:"pink", width: "160", height: "200"}
             ]
         }
     }
