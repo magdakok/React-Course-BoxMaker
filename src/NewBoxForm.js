@@ -30,6 +30,7 @@ class NewBoxForm extends Component {
                 <label htmlFor='color'>Color:</label>
                 <input
                     id='color'
+                    type='color'
                     name='color'
                     value={this.state.color}
                     onChange={this.handleChange}
