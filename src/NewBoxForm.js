@@ -3,7 +3,7 @@ import React, {Component} from 'react';
 class NewBoxForm extends Component {
     constructor(props){
         super(props);
-        this.state = {color:"", width:"", height:""};
+        this.state = {color:"#c258df", width:"", height:""};
         this.handleSubmit = this.handleSubmit.bind(this);
         this.handleChange = this.handleChange.bind(this);
     }
